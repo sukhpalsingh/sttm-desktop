@@ -1,8 +1,8 @@
 /* eslint global-require: 0, import/no-unresolved: 0, import/no-dynamic-require: 0 */
 global.platform = global.platform || require('./js/desktop_scripts');
 const h = require('hyperscript');
-window.$ = window.jQuery = require("jquery");
-window.spectrum = require("spectrum-colorpicker");
+window.$ = require('jquery');
+window.spectrum = require('spectrum-colorpicker');
 
 const corePath = (global.mainWindow ? '..' : '.');
 const core = require(`${corePath}/core/js/index`);
