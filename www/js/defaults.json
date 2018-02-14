@@ -4,6 +4,12 @@
       "theme": "light-theme",
       "layout": {
         "presenter-view": true
+      },
+      "custom-theme-colors" : {
+        "gurbani": "#01579b",
+        "translation": "#4e4e4e",
+        "transliteration": "#666",
+        "teeka": "#5a5a5a"
       }
     },
     "searchResults": {
